@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 
-export function ChainAnimation({ side = "right" }: { side?: "right" }) {
+export function ChainAnimation({ side = "right" }: { side?: "left"|"right" }) {
   const containerRef = useRef<HTMLDivElement>(null)
   const itemRefs = useRef<HTMLDivElement[]>([])
 
