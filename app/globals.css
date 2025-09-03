@@ -29,41 +29,46 @@
     background-clip: initial;
     -webkit-text-fill-color: currentColor;
 
-    /* Enhanced glow effect that matches the heading color */
-    text-shadow: 
-      0 0 10px currentColor,
-      0 0 20px currentColor,
-      0 0 30px currentColor,
-      0 0 40px currentColor;
-  }
-  
-  /* Specific glow for purple headings */
-  .text-\[\#7c3aed\],
-  h1.text-\[\#7c3aed\],
-  h2.text-\[\#7c3aed\],
-  h3.text-\[\#7c3aed\],
-  h4.text-\[\#7c3aed\],
-  h5.text-\[\#7c3aed\],
-  h6.text-\[\#7c3aed\] {
-    text-shadow: 
-      0 0 10px rgba(124, 58, 237, 0.7),
-      0 0 20px rgba(124, 58, 237, 0.5),
-      0 0 30px rgba(124, 58, 237, 0.3);
-  }
-  
-  /* Specific glow for pink headings */
-  .text-\[\#ec4899\],
-  h1.text-\[\#ec4899\],
-  h2.text-\[\#ec4899\],
-  h3.text-\[\#ec4899\],
-  h4.text-\[\#ec4899\],
-  h5.text-\[\#ec4899\],
-  h6.text-\[\#ec4899\] {
-    text-shadow: 
-      0 0 10px rgba(236, 72, 153, 0.7),
-      0 0 20px rgba(236, 72, 153, 0.5),
-      0 0 30px rgba(236, 72, 153, 0.3);
-  }
+    .font-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: 
+    0 0 2px currentColor,
+    0 0 4px currentColor,
+    0 0 8px currentColor;
+}
+
+/* Purple glow */
+.text-\[\#7c3aed\],
+h1.text-\[\#7c3aed\],
+h2.text-\[\#7c3aed\],
+h3.text-\[\#7c3aed\],
+h4.text-\[\#7c3aed\],
+h5.text-\[\#7c3aed\],
+h6.text-\[\#7c3aed\] {
+  text-shadow: 
+    0 0 2px rgba(124, 58, 237, 0.3),
+    0 0 4px rgba(124, 58, 237, 0.2),
+    0 0 8px rgba(124, 58, 237, 0.1);
+}
+
+/* Pink glow */
+.text-\[\#ec4899\],
+h1.text-\[\#ec4899\],
+h2.text-\[\#ec4899\],
+h3.text-\[\#ec4899\],
+h4.text-\[\#ec4899\],
+h5.text-\[\#ec4899\],
+h6.text-\[\#ec4899\] {
+  text-shadow: 
+    0 0 2px rgba(236, 72, 153, 0.3),
+    0 0 4px rgba(236, 72, 153, 0.2),
+    0 0 8px rgba(236, 72, 153, 0.1);
+}
   
   p {
     line-height: 1.6;
